@@ -1,7 +1,7 @@
 // // ---------------even or odd----------------------
 
 
-//     let a = parseFloat(prompt("Enter a number to check if it's even or odd:"));
+//     let a = prompt("Enter a number to check if it's even or odd:");
 //     document.write(a);
 
 //     if (a == 0) {
@@ -21,7 +21,7 @@
     // ------------------------Circumference and CircleAria ------------------------------
 
 
-// let radius = parseFloat(prompt("Enter the radius of the circle:"));;
+// let radius = prompt("Enter the radius of the circle:");;
 // let Circumference = radius * 2 * Math.PI;
 // let CircleAria = Math.pow(radius, 2) * Math.PI;
 // document.write(`<p style="color: blue; font-size: xx-large;">Circumference = ${Circumference}</p>
@@ -29,8 +29,8 @@
 
 // -----------------------  + or -   -------------------------
 
-// let num1 = parseFloat(prompt("Enter the first number to check:"));
-//   let num2 = parseFloat(prompt("Enter the second number to check:"));
+// let num1 = prompt("Enter the first number to check:");
+//   let num2 = prompt("Enter the second number to check:");
 // if (num1 == 0) {
 //   document.write(
 //     `<span style="color: black; font-size: xx-large;">Zero and </span>`
@@ -62,8 +62,8 @@
 
 // -------------------------------sum-------------------------
 
-let num1 = parseFloat(prompt("Enter the first number to sum :"));
-let num2 = parseFloat(prompt("Enter the second number to sum:"));
+let num1 = prompt("Enter the first number to sum :");
+let num2 = prompt("Enter the second number to sum:");
 document.write(
     `<span style="color: red; font-size: xx-large;">sum = (${num1 + num2}) </span>`
   );
