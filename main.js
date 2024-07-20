@@ -29,8 +29,8 @@
 
 // -----------------------  + or -   -------------------------
 
-// let num1 = parseFloat(prompt("Enter the first number:"));
-//   let num2 = parseFloat(prompt("Enter the second number:"));
+// let num1 = parseFloat(prompt("Enter the first number to check:"));
+//   let num2 = parseFloat(prompt("Enter the second number to check:"));
 // if (num1 == 0) {
 //   document.write(
 //     `<span style="color: black; font-size: xx-large;">Zero and </span>`
@@ -62,8 +62,8 @@
 
 // -------------------------------sum-------------------------
 
-// let num1 = parseFloat(prompt("Enter the first number:"));
-// let num2 = parseFloat(prompt("Enter the second number:"));
-// document.write(
-//     `<span style="color: red; font-size: xx-large;">sum = (${num1 + num2}) </span>`
-//   );
+let num1 = parseFloat(prompt("Enter the first number to sum :"));
+let num2 = parseFloat(prompt("Enter the second number to sum:"));
+document.write(
+    `<span style="color: red; font-size: xx-large;">sum = (${num1 + num2}) </span>`
+  );
