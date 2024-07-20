@@ -29,34 +29,41 @@
 
 // -----------------------  + or -   -------------------------
 
-let num1 = parseFloat(prompt("Enter the first number:"));
-  let num2 = parseFloat(prompt("Enter the second number:"));
-if (num1 == 0) {
-  document.write(
-    `<span style="color: black; font-size: xx-large;">Zero and </span>`
-  );
-} else {
-  if (num1 > 0) {
-    document.write(
-      `<span style="color: blue; font-size: xx-large;">(${num1}) is Positive and </span>`
-    );
-  } else {
-    document.write(
-      `<span style="color: red; font-size: xx-large;">(${num1}) is Negative and </span>`
-    );
-  }
-}
-if (num2 == 0) {
-  document.write(`<span style="color: black; font-size: xx-large;">Zero</p>`);
-} else {
-  if (num2 > 0) {
-    document.write(
-      `<span style="color: blue; font-size: xx-large;">(${num2}) is Positive</span>`
-    );
-  } else {
-    document.write(
-      `<span style="color: red; font-size: xx-large;">(${num2}) is Negative</span>`
-    );
-  }
-}
+// let num1 = parseFloat(prompt("Enter the first number:"));
+//   let num2 = parseFloat(prompt("Enter the second number:"));
+// if (num1 == 0) {
+//   document.write(
+//     `<span style="color: black; font-size: xx-large;">Zero and </span>`
+//   );
+// } else {
+//   if (num1 > 0) {
+//     document.write(
+//       `<span style="color: blue; font-size: xx-large;">(${num1}) is Positive and </span>`
+//     );
+//   } else {
+//     document.write(
+//       `<span style="color: red; font-size: xx-large;">(${num1}) is Negative and </span>`
+//     );
+//   }
+// }
+// if (num2 == 0) {
+//   document.write(`<span style="color: black; font-size: xx-large;">Zero</p>`);
+// } else {
+//   if (num2 > 0) {
+//     document.write(
+//       `<span style="color: blue; font-size: xx-large;">(${num2}) is Positive</span>`
+//     );
+//   } else {
+//     document.write(
+//       `<span style="color: red; font-size: xx-large;">(${num2}) is Negative</span>`
+//     );
+//   }
+// }
 
+// -------------------------------sum-------------------------
+
+// let num1 = parseFloat(prompt("Enter the first number:"));
+// let num2 = parseFloat(prompt("Enter the second number:"));
+// document.write(
+//     `<span style="color: red; font-size: xx-large;">sum = (${num1 + num2}) </span>`
+//   );
